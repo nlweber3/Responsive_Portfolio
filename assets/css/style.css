@@ -1,0 +1,346 @@
+
+header {
+	font-size: 200%;
+	text-align: left;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+}
+.head-container {
+	float:left;
+	padding: 20px;
+	border: 5px #4aaaa5;
+	margin-left: 150px;
+	margin-top:0px;
+	background: #4aaaa5;
+	position:relative;
+}
+.text-body {
+	width:200px;
+	margin-left: 30px;
+	margin-bottom:40px;
+	font-size:large;
+
+}
+.contact {
+	display:inline-block;
+	margin-right:60px;
+	font-color:black;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-decoration: bold;
+	font-size:20px;
+}
+.portfolio {
+	display:inline-block;
+	margin-right:40px;
+	font-color:black;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-decoration: bold;
+	font-size:20px;
+	}
+
+.about {
+	display:inline-block;
+	margin-right:40px;
+	font-color:black;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-decoration: bold;
+	font-size:20px;
+
+}
+
+body {
+	background-image: url("../images/stonehaven/stonehaven.png");
+	position:relative;
+}
+
+h3 {
+	text-align:center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color:#4aaaa5;
+}
+
+.body-container {
+	display:flex;
+	justify-content: space-between;
+	align-content: center;
+	flex-flow: row nowrap;
+	margin:0;
+
+}
+
+.aboutme {
+	width:650px;
+	margin-left:150px;
+	margin-top:75px;
+	position:absolute;
+	border:solid #cccccc;
+	background:#ffffff;
+	margin-bottom: 100px;
+}
+.text-body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	clear:both;
+	display:inline-block;
+	line-height: 1.2;
+	width:auto;
+}
+
+h1 {
+	color:#4aaaa5;
+	font-style:underline;
+	margin-left:20px;
+}
+.head-container2 {
+	background:white;
+	display:flex;
+	justify-content: space-between;
+	align-content: center;
+	flex-flow: row nowrap;
+	margin:0;
+}
+
+.connect {
+	float:left;
+	width:270px;
+	margin-left:840px;
+	margin-top:75px;
+	padding-bottom: 50px;
+	position:relative;
+	border:solid #cccccc;
+	background:#ffffff;
+}
+.topmain {
+	background:#ffffff;
+}
+.mainimage {
+	height:200px;
+	width: 250px;
+	margin-left: 28px;
+	margin-top:20px;
+	vertical-align: top;
+}
+.github {
+	height:75px;
+	width:75px;
+	margin-left:20px;
+}
+.linkedin {
+	height:75px;
+	width:75px;
+}
+.stackflow {
+	height:70px;
+	width:70px;
+}
+.portfolio-1 {
+	height:250px;
+	width:250px;
+	margin-left:50px;
+	margin-bottom: 40px;
+
+}
+.portfolio-2 {
+	display:inline-block;
+	height:250px;
+	width:250px;
+	margin-left: 40px;
+	margin-bottom: 40px;
+}
+.portfolio-3 {
+	height:250px;
+	width:250px;
+	margin-left:50px;
+	margin-bottom: 40px;
+
+}
+.portfolio-4 {
+	display:inline-block;
+	height:250px;
+	width:250px;
+	margin-left: 40px;
+	margin-bottom: 40px;
+}
+.portfolio-5 {
+	height:250px;
+	width:250px;
+	margin-left: 50px;
+	margin-bottom: 40px;
+}
+.contact-container {
+	border-radius: 5px;
+	background:#ffffff;
+}
+.name {
+	font-size:x-large;
+	margin-left:30px;
+	margin-top: 20px;
+
+}
+.name-box {
+	display:block;
+	margin-left:28px;
+	margin-top: 8px;
+	height:40px;
+	width:400px;
+	font-size: larger;
+	padding-left: 10px
+}
+.message {
+	display:block;
+	margin-top:10px;
+	margin-left: 28px;
+	height:400px;
+	width:500px;
+	padding=left: 10px;
+	font-size: larger;
+}
+#message {
+	margin-left:30px;
+	font-size: x-large;
+}
+.submitbutton {
+	margin-top:20px;
+	margin-left: 28px;
+	width:100px;
+	height:45px;
+	background: #4aaaa5;
+	font-size: large;
+	color:white;
+	margin-bottom: : 30px;
+}
+.copyright {
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	padding: 4px 0 10px 500px;
+	background:#666666;
+	margin-top: 30px;
+	color:white;
+}
+
+.footer {
+	display:flex;
+	flex-direction: column;
+}
+@media screen and (max-width: 980px) {
+	.wrapper {
+		width:900px;
+	}
+	.aboutme {
+		width:400px;
+	}
+	.connect {
+		position: flex;
+		margin-left: 600px;	
+}
+	.copyright {
+		padding-left: 400px;
+	}
+	.name-box {
+		width:350px;
+	}
+	.message {
+		width:350px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.wrapper {
+		width:768px;
+	}
+	.aboutme {
+		margin-left: 20px;
+		width:700px;
+		position: static;
+		margin-bottom: 100px;
+		display:flex;
+		flex-flow: row wrap;
+		padding-bottom:20px;
+	}
+	.connect {
+		display:inline-block;
+		margin-left: 0;
+		position: static;
+		margin-top:0px;
+		margin-bottom: 100px;
+		width: 600px;
+	}
+	.github {
+		margin-left:180px;
+	}
+	.text-body {
+		width: calc(100% - 320px);
+	}
+
+	.copyright {
+		padding-left: 300px;
+	}
+	.aboutme h1 {
+		width:100%;
+	}
+	.message {
+		width:100%;
+		margin-right: 50px;
+	}
+	.submitbutton {
+		width:calc(100% - 200px);
+	}	
+	.contact-container {
+		width:100%;
+		margin-bottom: 10px;
+	}
+
+}
+@media screen and (max-width: 640px) {
+	.wrapper {
+		width:640px;
+
+	}
+	.head-container {
+		width:100%;
+		margin-left: 0px;
+		display:inline-block;
+		position: static;
+		clear:both;
+
+	}
+	.about {
+		display:block;
+		margin-left: 70px;
+		float:left;
+		margin-top: 5px;
+	}
+	.head-container2 {
+		display:block;
+		padding-bottom: 105px; 
+	}
+	.contact {
+		display: inline-block;
+		margin-left: 80px;
+		float:left;
+		margin-top: 5px;
+	}
+	.portfolio {
+		margin-left: 95px;
+		float:left;
+		margin-top: 5px;
+	}
+	header {
+		text-align: center;
+	}
+	.copyright {
+		padding-left: 240px;
+	}
+	.aboutme {
+		width: 550px;
+	}
+	.mainimage {
+		width:375px;
+		height:300px;
+		margin-left: 60px;
+	}
+	.text-body {
+		width:400px;
+		margin-left: 50px
+		margin-top:30px;
+	}
